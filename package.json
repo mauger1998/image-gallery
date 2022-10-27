@@ -4,7 +4,10 @@
   "description": "A few functions to help create a sliding image gallery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --hot",
+    "build": "NODE_ENV='production' webpack"
   },
   "repository": {
     "type": "git",
