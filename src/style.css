@@ -3,3 +3,31 @@
     padding:0;
     box-sizing:border-box;
 }
+
+#image0,
+#image1,
+#image2 {
+    width:600px;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.mainContainer,
+.superLongDiv {
+    border:1px solid black;
+}
+
+.superLongDiv > ul {
+    list-style:none;
+    display:flex;
+}
+
+.mainContainer {
+    width:600px;
+    overflow:hidden;
+}
